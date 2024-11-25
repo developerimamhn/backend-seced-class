@@ -1,6 +1,6 @@
 const { DataTypes } = require("sequelize");
 
-module.exports = function (db){
+module.exports =  (db) =>{
     return db.define(
         'memo',
         {
